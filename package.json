@@ -12,8 +12,8 @@
                     "url": "git+https://github.com/wangding/grunt-demo.git"
                         
           },
-            "author": "",
-              "license": "ISC",
+            "author": "wangding",
+              "license": "MIT",
               "bugs": {
                     "url": "https://github.com/wangding/grunt-demo/issues"
                         
@@ -21,7 +21,7 @@
                 "homepage": "https://github.com/wangding/grunt-demo#readme",
                 "devDependencies": {
                       "grunt": "^1.0.1",
-                          "grunt-contrib-less": "^1.4.1"
+                          "grunt-htmlhint": "^0.9.13"
                               
                 }
 
