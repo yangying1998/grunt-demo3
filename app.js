@@ -1,5 +1,19 @@
-#!/usr/bin/node
+module.exports = function (grunt) {
+  grunt.initConfig({
+    mochacli: {
+      options: {
+                reporter: 'spec',
+          bail: true
+          
+      },
+        all: ['test/*.js']
+                         
+    }
+      
+  });
 
-const add = require('./calc');
+    grunt.loadNpmTasks('grunt-mocha-cli')
 
-console.log(`30 + 40 = ${add(30, 40)}`);
+      grunt.registerTask('default', ['mochacli']);
+
+};

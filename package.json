@@ -1,8 +1,8 @@
 {
     "name": "grunt-demo",
       "version": "1.0.0",
-        "description": "grunt 试炼场",
-          "main": "index.js",
+        "description": "Grunt 试炼场",
+          "main": "app.js",
           "scripts": {
                 "test": "grunt"
                     
@@ -21,13 +21,11 @@
                 "homepage": "https://github.com/wangding/grunt-demo#readme",
                 "devDependencies": {
                       "chai": "^4.2.0",
-                          "grunt": "^1.0.1",
+                          "grunt": "^1.0.3",
                               "grunt-mocha-cli": "^4.0.0",
                                   "grunt-mocha-istanbul": "^5.0.2",
-                                      "istanbul": "^0.4.5",
-                                          "mocha": "^6.0.2",
-                                              "mochawesome": "^3.1.1"
-                                                  
+                                      "istanbul": "^0.4.5"
+                                          
                 }
 
 }
